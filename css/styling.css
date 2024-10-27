@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    background-image: url("../assets/img/pexels-frans-van-heerden-201846-688890.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffdb5b;
+}
+
+.hero img{
+    border-radius: 65%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.hero h1{
+    font-size: 8rem;
+    padding: 20px;
+}
+
+.hero h2{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.hero i{
+    font-size: 8rem;
+    margin-bottom: 250px;
+}
+
+.intro{
+    background-image: url("../assets/img/pexels-exposureonestudios-2414093.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .left{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.intro .left h2{
+    color: #ffdb5b;
+    font-size: 4rem;
+}
+
+.intro .right{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.intro .right p{
+    color: #ffdb5b;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+button{
+    color: #fff;
+    background: #ffdb5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.activities{
+    background-image: url("../assets/img/pexels-pixabay-35637.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities h2{
+    color: #ffdb5b;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.activities .wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+.activities .wrapper .container{
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.activities .wrapper .container h3{
+    color: #ffdb5b;
+}
+
+.activities .wrapper .container i{
+    color: #ffdb5b;
+    font-size: 2rem;
+}
+
+.recommendations{
+    background-image: url("../assets/img/pexels-suomi-photography-621409-2024881.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommendations .left{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.recommendations .left h2{
+    color: #ffdb5b;
+    font-size: 4rem;
+}
+
+.recommendations .right{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.recommendations .right h3{
+    color: #ffdb5b;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.recommendations .right p{
+    color: #ffdb5b;
+    font-size: 1.25rem;
+    padding-bottom: 20px;
+}
+
+.stats{
+    background-image: url("../assets/img/pexels-sara-loeffler-2369291-4027720.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats .items{
+    background: #000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats .items h2{
+    color: #ffdb5b;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.stats .items p{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.author-info{
+    background-image: url("../assets/img/pexels-vika-glitter-392079-1565326.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-info img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author-info p{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px
+}
+
+.author-info h3{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+
+.author-info i{
+    color: #ffdb5b;
+    font-size: 8rem;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.gallery img{
+    width: 350px;
+    height: 500px;
+}
+
+footer{
+    background-image: url("../assets/img/pexels-greatthingsllc-11011922.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .left{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+footer .left h2{
+    color: #ffdb5b;
+    font-size: 4rem;
+    padding: 20px;
+}
+
+footer .left li{
+    color: #fff;
+    padding: 2px;
+}
+
+footer .left .icon-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+footer .left .icon-wrap i{
+    color: #ffdb5b;
+    font-size: 3rem;
+}
+
+footer .right{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+footer .right input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
